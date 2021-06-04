@@ -1,0 +1,30 @@
+.footer{
+    margin: 0;
+    height: auto;
+    width: 100vw;
+    background-color: rgb(248, 248, 248);
+}
+
+.footer .footer_content{
+    height: auto;
+    padding: 30px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_content ul{
+    width: 220px;
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.footer_content ul li{
+    padding: 10px 0;
+}
+
+.footer .copyright{
+    display: flex;
+    justify-content: space-between;
+    border-top: orangered solid 1px;
+    margin: 10px 90px;
+}

@@ -1,0 +1,420 @@
+/* .blog-container */
+
+.blog-container {
+    padding-top: 25px;
+}
+
+
+/* //breadcrumb__list */
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.breadcrumb__list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.breadcrumb__list li {
+    position: relative;
+    color: #fa6400;
+    cursor: pointer;
+    /* padding-right: 10px; */
+    /* margin-right: 5px; */
+}
+
+.gg {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.container {
+    max-width: 1224px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* grid */
+
+.grid {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.grid {
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -moz-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0;
+    position: relative;
+    float: none;
+}
+
+.grid:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.grid .grid__column {
+    padding: 10px;
+}
+
+.grid__column {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 1px;
+    vertical-align: top;
+    margin-left: 0!important;
+    margin-right: 0!important;
+    padding: 0 15px;
+    width: 100%;
+}
+
+
+/* left  */
+
+.grid .grid__column {
+    padding: 10px;
+}
+
+.left1 {
+    width: 66.666%;
+}
+
+.mgb--50 {
+    margin-bottom: 50px;
+}
+
+.article-card {
+    overflow: hidden;
+}
+
+.article-card .article__thumbnail {
+    display: block;
+    float: left;
+    width: 33.33333333%;
+    margin-right: 15px;
+}
+
+.article__thumbnail {
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+
+/* image */
+
+.article__thumbnail a {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 113.33333%;
+    display: block;
+}
+
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: inherit;
+    transition: all .2s;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    /* text-decoration: underline; */
+}
+
+.article__thumbnail a img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.article__thumbnail img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+img {
+    border-style: none;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+
+/* title  */
+
+.article-card--full .article__title {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.article__title {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+
+/* info  */
+
+.article-card--full .article-info {
+    margin-bottom: 11px;
+}
+
+.article-info {
+    font-size: 13px;
+    color: #bfbfbf;
+}
+
+.date {
+    margin-left: 20px;
+    padding-left: 17px;
+}
+
+
+/* grid__column right */
+
+.right1 {
+    width: 33.333%;
+}
+
+.category-list--module {
+    border: 1px solid #fa6400;
+    margin-bottom: 21px;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+
+/* Chuyên mục */
+
+.category-list--module .module__title {
+    padding: 10px 20px;
+    background-color: #fa6400;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.module__title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.h5,
+h5 {
+    font-size: 1.125rem;
+}
+
+h5 {
+    margin-top: 0px;
+    font-weight: 400;
+}
+
+.category-list--module .module__title:before {
+    background-color: #fff;
+}
+
+.module__title:before {
+    display: inline-block;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #fa6400;
+    margin-right: 8px;
+}
+
+
+/* li */
+
+.category-list li {
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.no-style li {
+    list-style: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+*,
+ :after,
+ :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.category-list li a {
+    display: block;
+    position: relative;
+    padding: 7px 0 7px 20px;
+    font-size: 16px;
+    width: 100%;
+}
+
+
+/* bài viết đc xem nhiều nhất */
+
+.module__title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.h4,
+h4 {
+    font-size: 1.35rem;
+    color: #231f20;
+    font-weight: 400;
+    margin-top: 0;
+    font-family: Sarabun, sans-serif;
+    line-height: 1.5;
+}
+
+
+/* //img  */
+
+.article__thumbnail img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+/* chữ dưới ảnh */
+
+.mgt--20 {
+    margin-top: 20px;
+}
+
+.text--bold {
+    font-weight: 700;
+}
+
+h6 {
+    font-size: .9rem;
+    margin-bottom: .5rem;
+    color: #231f20;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+/* phim neftflix , */
+
+.mgt--30 {
+    margin-top: 30px;
+}
+
+.article-card {
+    overflow: hidden;
+}
+
+.h3,
+h3 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+/* thanh trượt */
+
+.pagination {
+    padding: 25px 0;
+    justify-content: center;
+}
+
+.pagination__page--current {
+    background: #fa6400;
+    color: #fff!important;
+}
+
+.pagination__page {
+    min-width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0 3px;
+    line-height: 20px;
+    letter-spacing: .5px;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+    .site-content {
+        margin-top: 70px;
+    }
+    .block {
+        width: 80%;
+    }
+    .left1 {
+        width: 100%;
+    }
+    .right1 {
+        display: none!important;
+    }
+}

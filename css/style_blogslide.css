@@ -1,0 +1,144 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: Sarabun, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #231f20;
+    text-align: left;
+    background-color: #fff;
+}
+
+.blog-slide {
+    /* height: 500px; */
+    background-image: url(https://mcdn.coolmate.me/uploads/April2019/VTP_1_44.JPG);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    overflow: hidden;
+}
+
+
+.blog-slide:before {
+    z-index: 1;
+    display: block;
+    content: "";
+    background: linear-gradient( 106deg, rgba(0, 0, 0, .95), rgba(0, 0, 0, .02));
+}
+
+.blog-slide:after {
+    display: block;
+    content: "";
+    padding-bottom: 36.45833333%;
+}
+
+.blog-slide__inner {
+    z-index: 2;
+}
+
+.blog-slide:before,
+.blog-slide__inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-image: linear-gradient(to right, black, rgb(117, 109, 109), white);
+    opacity: 0.8; */
+}
+
+.block {
+    height: 310px;
+    width: 33.33%;
+    position: absolute;
+    /* z-index: 2; */
+}
+
+.blog-slide__category {
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.blog-slide__category:hover {
+    color: #fa6400;
+}
+
+div {
+    display: block;
+}
+
+.blog-slide__category:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    margin-right: 5px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #fa6400;
+}
+
+.blog-slide__title {
+    margin: 10px 0 0;
+    font-size: 2.25rem;
+    line-height: 1.4em;
+}
+
+.blog-slide__title a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: inherit;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+.blog-slide__text {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 1.73;
+    color: #fff;
+}
+
+.container {
+    max-width: 1224px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.blog-slide .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+}
